@@ -1,14 +1,14 @@
 
 <div style="text-align: center;"><img src="img/Navio2WithPaspberryPi.png"></div><br>
 
-This is a documentation for Navio2 - autopilot HAT for Raspberry Pi.
+Esta é uma documentação do Navio2 – autopilot HAT para o Raspberry Pi.
 
-Documentation for Navio+ can be found [here](https://docs.emlid.com/navio/).
+A documentação do Navio+ pode ser encontrada [aqui](https://docs.emlid.com/navio/).
 
-### Collaboration
+### Colaboração
 
-This document can be edited on [GitHub](https://github.com/emlid/navio2-docs) in markdown. If you find any mistakes, typos or  pieces that are not documented well enough simply open an issue or contribute by sending a pull request.
+Este documento pode ser editado no [GitHub](https://github.com/emlid/navio2-docs) no markdown. Se você encontrar erros, erros de digitação ou peças que não estejam documentados suficientemente bem, simplesmente abra um problema ou contribua enviando uma solicitação de alteração.
 
-### Discussion
+### Discussão
 
-We are happy to answer any questions at [community.emlid.com](http://community.emlid.com)
+Estamos felizes em responder a quaisquer perguntas em [community.emlid.com](http://community.emlid.com)
