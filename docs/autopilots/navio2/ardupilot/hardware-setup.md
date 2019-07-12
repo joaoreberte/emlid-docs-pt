@@ -1,41 +1,40 @@
-## Currently supported boards
+## Placas atualmente suportadas
 
-ArduPilot on Navio2 is working on:
+ArduPilot no Navio2 está trabalhando no:
 
-* Raspberry Pi 3 Model B
-* Raspberry Pi 2 Model B
+* Raspberry Pi 3 Modelo B
+* Raspberry Pi 2 Modelo B
 
 !!! note ""
-    Other models such as Raspberry Pi Model A+, Raspberry Pi Model B+, Raspberry Pi Zero are electrically compatible, but lack performance to run ArduPilot:Copter. It is completely safe to use Navio2 with all boards stated above.
+    Outros modelos, como Raspberry Pi Modelo A +, Raspberry Pi Modelo B +, Raspberry Pi Zero são eletricamente compatíveis, mas falta desempenho para executar o ArduPilot: Copter. É completamente seguro usar o Navio2 com todas as placas indicadas acima.
 
-## Attaching Navio2 to a Raspberry Pi
+## Montando Navio2 a um Raspberry Pi
 
-* Install spacers to the top side of Raspberry Pi and fix them with screws from the bottom.
-* Connect extension header to the 40-pin gpio port.
-* Attach Navio2 to the extension header.
-* Fix Navio2 using screws.
+* Instale os espaçadores no lado superior do Raspberry Pi e fixe-os com parafusos por baixo.
+* Conecte o cabeçalho da extensão à porta de 40 pinos gpio.
+* Anexe o Navio2 a placa.
+* Prenda o Navio2 usando parafusos.
 
 ![mount](img/navio2-mount.png)
 
-## Powering Navio2
+## Alimentando Navio2
 
 !!! danger "Attention"
-    ALL POWER SOURCES SHOULD PROVIDE VOLTAGE IN 4.8-5.3V RANGE, OTHERWISE YOU CAN DAMAGE YOUR NAVIO2 AND RASPBERRY PI.**
+    TODAS AS FONTES DE ALIMENTAÇÃO DEVEM PROPORCIONAR VOLTAGEM NO INTERVALO DE 4.8-5.3V, DE OUTRO MODO VOCÊ PODE DANIFICAR SEU NAVIO2 E RASPBERRY PI.**
 
-Navio2 has three power sources, all of them can be used simultaneously as they are protected by ideal diodes.
+O Navio2 possui três fontes de energia, todas elas podem ser usadas simultaneamente, pois são protegidas por diodos ideais.
 
-### For testing and development purposes
+### Para fins de teste e desenvolvimento
 
-Connect 5V 1A power adapter to the Raspberry Pi’s microUSB port. Raspberry Pi will provide power to the Navio2.
+Conecte o adaptador de energia 5V 1A à porta microUSB do Raspberry Pi. O Raspberry Pi fornecerá energia para o Navio2.
 
-### In a drone
+### No drone
 
-Navio2 should be powered by a power module connected to the “POWER” port on Navio2. Navio2 will provide power to the Raspberry Pi.
-![power-module](img/navio2-power-module.png)
+O Navio2 deve ser alimentado por um módulo de energia conectado à porta “POWER” no Navio2. O Navio2 fornecerá energia para o Raspberry Pi.![power-module](img/navio2-power-module.png)
 
-### Redundancy
+### Redundância
 
-In case of power module failure Navio2 will switch to power from the servo rail.
+Em caso de falha do módulo de energia, o Navio2 passará para a energia do servo rail.
 
 ## Powering servo rail
 
