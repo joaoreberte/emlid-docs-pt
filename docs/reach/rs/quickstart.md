@@ -125,7 +125,7 @@ Este tutorial irá guiá-lo através do processo de instalação de duas unidade
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/4GfUDoDwEAE" allowfullscreen></iframe></div>
 
-## Placing Reach RS/RS+ module
+## Onde colocar o Reach RS/RS+
 
 
 * Reach RS/RS+ pode ser colocado sobre um tripé com rosca de 1/4". Cada pacote vem com um adaptador para 5/8" para bastão.
